@@ -1,3 +1,9 @@
+//At atcoder if you got AC means all correct then only you code will be considered
+// to be a correct one otherwise not.
+// 2 ke power 32 ke liye toh long long use karna pdega he uske bina toh 
+// kaam banega he nahi boss.
+// the main task is to form a recurrence baaki toh recursion saambhal 
+// lega he yaar.
 #include<bits/stdc++.h>
 using namespace std;
 long long int mod = 1e8;
@@ -39,7 +45,7 @@ int main(){
         tree[v].push_back(u);
         
     }
-    cout<<solve(1,0,-1);
+    cout<<solve(1,0,-1)<<endl;
 
 
 
