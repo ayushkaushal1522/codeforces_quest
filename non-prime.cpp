@@ -21,7 +21,7 @@ bool func2(int mkj){
     for(int q=2;q*q<=mkj;q++){
 
         if(mkj%q==0){
-            return q;
+            return q';
 
 
         }
