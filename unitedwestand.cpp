@@ -37,6 +37,8 @@ int main(){
             }
             cout<<v.size()<<" "<<c.size()<<endl;
             for(auto it : v){
+
+                
                 cout<<it<<" ";
             }
             cout<<endl;
